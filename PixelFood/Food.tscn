@@ -65,8 +65,6 @@
 [ext_resource path="res://PixelFood/Split/Tomato.png" type="Texture" id=63]
 [ext_resource path="res://PixelFood/Split/Sausages.png" type="Texture" id=64]
 
-
-
 [node name="Food" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
