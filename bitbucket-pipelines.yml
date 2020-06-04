@@ -6,7 +6,7 @@ pipelines:
         script:
           - git submodule update --recursive --init
           - zip -r $FILENAME . -x bitbucket-pipelines.yml *.git*
-          - pipe: atlassian/bitbucket-upload-file:0.1.6
+          - pipe: atlassian/bitbucket-upload-file:0.1.5@sha256:e853a53befe6f3ec91449c37b8c74ad74730902a2896289069a400266f15657c
             variables:
               BITBUCKET_USERNAME: $BITBUCKET_USERNAME
               BITBUCKET_APP_PASSWORD: $BITBUCKET_APP_PASSWORD
