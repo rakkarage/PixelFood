@@ -1,6 +1,6 @@
 # PixelFood
 
-<img style="float: right;" src="icon.png">
+<img align="right" src="icon.png">
 
 Sixty-four pixel-perfect food and drink sprites.
 
