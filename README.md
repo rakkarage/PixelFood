@@ -2,16 +2,9 @@
 
 Sixty-four pixel-perfect food and drink sprites.
 
-- <https://godotmarketplace.com/publisher/henry-software/>
-- <https://bitbucket.org/rakkarage/pixelfood/issues>
-- <https://github.com/rakkarage/pixelfood/issues>
+- <https://henrysoftware.itch.io/godot-pixel-food>
+- <https://rakkarage.github.io/PixelFood/>
+- <https://guthub.com/rakkarage/PixelFood/>
+- <https://bitbucket.org/rakkarage/PixelFood/>
 
-## Submodules
-
-To include submodules, clone with the --recursive flag:
-
-`git clone --recursive https://bitbucket.org/rakkarage/PixelFood.git`
-
-or download a zip from bitbucket (bitbucket-pipelines.yml) which includes all submodules.
-
-<https://bitbucket.org/rakkarage/pixelfood/downloads/>
+[![.github/workflows/deploy.yml](https://github.com/rakkarage/PixelFood/actions/workflows/deploy.yml/badge.svg)](https://github.com/rakkarage/PixelFood/actions/workflows/deploy.yml)
