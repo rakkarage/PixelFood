@@ -68,16 +68,10 @@
 [node name="Food" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="GridContainer" type="GridContainer" parent="CenterContainer"]
 margin_left = 114.0
@@ -87,9 +81,6 @@ margin_bottom = 446.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 columns = 8
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control1" type="Control" parent="CenterContainer/GridContainer"]
 margin_right = 48.0
@@ -103,9 +94,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 8 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control2" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 52.0
@@ -120,9 +108,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 5 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control3" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 104.0
@@ -137,9 +122,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 15 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control4" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 156.0
@@ -154,9 +136,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 4 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control5" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 208.0
@@ -171,9 +150,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 9 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control6" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 260.0
@@ -188,9 +164,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 13 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control7" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 312.0
@@ -205,9 +178,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 11 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control8" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 364.0
@@ -222,9 +192,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 7 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control9" type="Control" parent="CenterContainer/GridContainer"]
 margin_top = 52.0
@@ -239,9 +206,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 14 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control10" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 52.0
@@ -257,9 +221,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 6 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control11" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 104.0
@@ -275,9 +236,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 2 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control12" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 156.0
@@ -293,9 +251,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 3 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control13" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 208.0
@@ -311,9 +266,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 16 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control14" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 260.0
@@ -329,9 +281,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 10 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control15" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 312.0
@@ -347,9 +296,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 1 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control16" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 364.0
@@ -365,9 +311,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 32 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control17" type="Control" parent="CenterContainer/GridContainer"]
 margin_top = 104.0
@@ -382,9 +325,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 21 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control18" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 52.0
@@ -400,9 +340,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 23 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control19" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 104.0
@@ -418,9 +355,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 28 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control20" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 156.0
@@ -436,9 +370,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 17 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control21" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 208.0
@@ -454,9 +385,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 22 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control22" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 260.0
@@ -472,9 +400,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 29 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control23" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 312.0
@@ -490,9 +415,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 24 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control24" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 364.0
@@ -508,9 +430,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 31 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control25" type="Control" parent="CenterContainer/GridContainer"]
 margin_top = 156.0
@@ -525,9 +444,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 25 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control26" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 52.0
@@ -543,9 +459,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 30 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control27" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 104.0
@@ -561,9 +474,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 18 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control28" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 156.0
@@ -579,9 +489,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 19 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control29" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 208.0
@@ -597,9 +504,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 20 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control30" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 260.0
@@ -615,9 +519,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 26 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control31" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 312.0
@@ -633,9 +534,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 27 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control32" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 364.0
@@ -651,9 +549,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 35 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control33" type="Control" parent="CenterContainer/GridContainer"]
 margin_top = 208.0
@@ -668,9 +563,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 34 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control34" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 52.0
@@ -686,9 +578,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 33 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control35" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 104.0
@@ -704,9 +593,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 44 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control36" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 156.0
@@ -722,9 +608,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 49 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control37" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 208.0
@@ -740,9 +623,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 42 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control38" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 260.0
@@ -758,9 +638,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 41 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control39" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 312.0
@@ -776,9 +653,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 51 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control40" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 364.0
@@ -794,9 +668,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 39 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control41" type="Control" parent="CenterContainer/GridContainer"]
 margin_top = 260.0
@@ -811,9 +682,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 37 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control42" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 52.0
@@ -829,9 +697,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 45 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control43" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 104.0
@@ -847,9 +712,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 38 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control44" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 156.0
@@ -865,9 +727,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 47 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control45" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 208.0
@@ -883,9 +742,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 40 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control46" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 260.0
@@ -901,9 +757,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 50 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control47" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 312.0
@@ -919,9 +772,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 43 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control48" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 364.0
@@ -937,9 +787,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 46 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control49" type="Control" parent="CenterContainer/GridContainer"]
 margin_top = 312.0
@@ -954,9 +801,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 48 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control50" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 52.0
@@ -972,9 +816,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 36 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control51" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 104.0
@@ -990,9 +831,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 59 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control52" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 156.0
@@ -1008,9 +846,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 60 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control53" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 208.0
@@ -1026,9 +861,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 64 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control54" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 260.0
@@ -1044,9 +876,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 53 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control55" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 312.0
@@ -1062,9 +891,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 58 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control56" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 364.0
@@ -1080,9 +906,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 61 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control57" type="Control" parent="CenterContainer/GridContainer"]
 margin_top = 364.0
@@ -1097,9 +920,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 62 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control58" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 52.0
@@ -1115,9 +935,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 52 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control59" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 104.0
@@ -1133,9 +950,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 54 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control60" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 156.0
@@ -1151,9 +965,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 63 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control61" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 208.0
@@ -1169,9 +980,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 56 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control62" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 260.0
@@ -1187,9 +995,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 55 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control63" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 312.0
@@ -1205,9 +1010,6 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 57 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Control64" type="Control" parent="CenterContainer/GridContainer"]
 margin_left = 364.0
@@ -1223,6 +1025,3 @@ margin_right = -32.0
 margin_bottom = -32.0
 rect_scale = Vector2( 3, 3 )
 texture = ExtResource( 12 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
