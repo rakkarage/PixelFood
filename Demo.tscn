@@ -1,12 +1,12 @@
 [gd_scene load_steps=3 format=3 uid="uid://b04nmuf3wictk"]
 
-[ext_resource type="PackedScene" path="res://PixelFood/Food.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://cxh06k2hkjqw6" path="res://PixelFood/Food.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://dwkeeiuo87ffy" path="res://Intro/Intro.tscn" id="2"]
 
 [node name="Demo" type="Node"]
 
 [node name="Food" parent="." instance=ExtResource("1")]
-layout_mode = 3
-anchors_preset = 15
+grow_horizontal = 2
+grow_vertical = 2
 
 [node name="Intro" parent="." instance=ExtResource("2")]
