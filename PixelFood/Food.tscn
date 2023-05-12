@@ -1,1027 +1,917 @@
-[gd_scene load_steps=65 format=2]
+[gd_scene load_steps=65 format=3 uid="uid://cxh06k2hkjqw6"]
 
-[ext_resource path="res://PixelFood/Split/DragonFruit.png" type="Texture" id=1]
-[ext_resource path="res://PixelFood/Split/Cherry.png" type="Texture" id=2]
-[ext_resource path="res://PixelFood/Split/Chicken.png" type="Texture" id=3]
-[ext_resource path="res://PixelFood/Split/Bacon.png" type="Texture" id=4]
-[ext_resource path="res://PixelFood/Split/AppleWorm.png" type="Texture" id=5]
-[ext_resource path="res://PixelFood/Split/Cheese.png" type="Texture" id=6]
-[ext_resource path="res://PixelFood/Split/Brownie.png" type="Texture" id=7]
-[ext_resource path="res://PixelFood/Split/Apple.png" type="Texture" id=8]
-[ext_resource path="res://PixelFood/Split/Beer.png" type="Texture" id=9]
-[ext_resource path="res://PixelFood/Split/Cookie.png" type="Texture" id=10]
-[ext_resource path="res://PixelFood/Split/Bread.png" type="Texture" id=11]
-[ext_resource path="res://PixelFood/Split/Wine.png" type="Texture" id=12]
-[ext_resource path="res://PixelFood/Split/Boar.png" type="Texture" id=13]
-[ext_resource path="res://PixelFood/Split/Bug.png" type="Texture" id=14]
-[ext_resource path="res://PixelFood/Split/Avocado.png" type="Texture" id=15]
-[ext_resource path="res://PixelFood/Split/ChickenLeg.png" type="Texture" id=16]
-[ext_resource path="res://PixelFood/Split/FishSteak.png" type="Texture" id=17]
-[ext_resource path="res://PixelFood/Split/Kiwi.png" type="Texture" id=18]
-[ext_resource path="res://PixelFood/Split/Marmalade.png" type="Texture" id=19]
-[ext_resource path="res://PixelFood/Split/MelonCantaloupe.png" type="Texture" id=20]
-[ext_resource path="res://PixelFood/Split/Eggs.png" type="Texture" id=21]
-[ext_resource path="res://PixelFood/Split/Grub.png" type="Texture" id=22]
-[ext_resource path="res://PixelFood/Split/Fish.png" type="Texture" id=23]
-[ext_resource path="res://PixelFood/Split/Honey.png" type="Texture" id=24]
-[ext_resource path="res://PixelFood/Split/Jam.png" type="Texture" id=25]
-[ext_resource path="res://PixelFood/Split/MelonHoneydew.png" type="Texture" id=26]
-[ext_resource path="res://PixelFood/Split/MelonWater.png" type="Texture" id=27]
-[ext_resource path="res://PixelFood/Split/FishFillet.png" type="Texture" id=28]
-[ext_resource path="res://PixelFood/Split/Grubs.png" type="Texture" id=29]
-[ext_resource path="res://PixelFood/Split/Jerky.png" type="Texture" id=30]
-[ext_resource path="res://PixelFood/Split/Honeycomb.png" type="Texture" id=31]
-[ext_resource path="res://PixelFood/Split/Eggplant.png" type="Texture" id=32]
-[ext_resource path="res://PixelFood/Split/Onion.png" type="Texture" id=33]
-[ext_resource path="res://PixelFood/Split/Olive.png" type="Texture" id=34]
-[ext_resource path="res://PixelFood/Split/Moonshine.png" type="Texture" id=35]
-[ext_resource path="res://PixelFood/Split/Sake.png" type="Texture" id=36]
-[ext_resource path="res://PixelFood/Split/PieApple.png" type="Texture" id=37]
-[ext_resource path="res://PixelFood/Split/PiePumpkin.png" type="Texture" id=38]
-[ext_resource path="res://PixelFood/Split/PickledEggs.png" type="Texture" id=39]
-[ext_resource path="res://PixelFood/Split/Potato.png" type="Texture" id=40]
-[ext_resource path="res://PixelFood/Split/PepperRed.png" type="Texture" id=41]
-[ext_resource path="res://PixelFood/Split/Pepperoni.png" type="Texture" id=42]
-[ext_resource path="res://PixelFood/Split/Pretzel.png" type="Texture" id=43]
-[ext_resource path="res://PixelFood/Split/Peach.png" type="Texture" id=44]
-[ext_resource path="res://PixelFood/Split/PieLemon.png" type="Texture" id=45]
-[ext_resource path="res://PixelFood/Split/Ribs.png" type="Texture" id=46]
-[ext_resource path="res://PixelFood/Split/Pineapple.png" type="Texture" id=47]
-[ext_resource path="res://PixelFood/Split/Roll.png" type="Texture" id=48]
-[ext_resource path="res://PixelFood/Split/PepperGreen.png" type="Texture" id=49]
-[ext_resource path="res://PixelFood/Split/PotatoRed.png" type="Texture" id=50]
-[ext_resource path="res://PixelFood/Split/Pickle.png" type="Texture" id=51]
-[ext_resource path="res://PixelFood/Split/Sushi.png" type="Texture" id=52]
-[ext_resource path="res://PixelFood/Split/Shrimp.png" type="Texture" id=53]
-[ext_resource path="res://PixelFood/Split/Tart.png" type="Texture" id=54]
-[ext_resource path="res://PixelFood/Split/Waffles.png" type="Texture" id=55]
-[ext_resource path="res://PixelFood/Split/Turnip.png" type="Texture" id=56]
-[ext_resource path="res://PixelFood/Split/Whiskey.png" type="Texture" id=57]
-[ext_resource path="res://PixelFood/Split/Steak.png" type="Texture" id=58]
-[ext_resource path="res://PixelFood/Split/Sardines.png" type="Texture" id=59]
-[ext_resource path="res://PixelFood/Split/Sashimi.png" type="Texture" id=60]
-[ext_resource path="res://PixelFood/Split/Stein.png" type="Texture" id=61]
-[ext_resource path="res://PixelFood/Split/Strawberry.png" type="Texture" id=62]
-[ext_resource path="res://PixelFood/Split/Tomato.png" type="Texture" id=63]
-[ext_resource path="res://PixelFood/Split/Sausages.png" type="Texture" id=64]
+[ext_resource type="Texture2D" uid="uid://b4dajpnp17hlw" path="res://PixelFood/Split/DragonFruit.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://ducxwfqiddqye" path="res://PixelFood/Split/Cherry.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://c7sapc8uyr2dp" path="res://PixelFood/Split/Chicken.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://b84let4wbn81a" path="res://PixelFood/Split/Bacon.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://d2kbh10e1taqr" path="res://PixelFood/Split/AppleWorm.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://ca0tt40c73w8b" path="res://PixelFood/Split/Cheese.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://q6ys7xy2bksg" path="res://PixelFood/Split/Brownie.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://653lrrt7e3bm" path="res://PixelFood/Split/Apple.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://bqy20ffbpytp4" path="res://PixelFood/Split/Beer.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://7pfh637a1h7b" path="res://PixelFood/Split/Cookie.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://blp8vyu8nn16g" path="res://PixelFood/Split/Bread.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://dtpqd1m2vktuq" path="res://PixelFood/Split/Wine.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://fuky5li05a3p" path="res://PixelFood/Split/Boar.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://btc3c2rpsajml" path="res://PixelFood/Split/Bug.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://b3p2ngkgy5u31" path="res://PixelFood/Split/Avocado.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://cqm0wy70jv8s2" path="res://PixelFood/Split/ChickenLeg.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://be3l25u05tvhw" path="res://PixelFood/Split/FishSteak.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://ow06fkkcgnjx" path="res://PixelFood/Split/Kiwi.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://ci6gy7vkqyxjy" path="res://PixelFood/Split/Marmalade.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://dgwy4dtoaydrc" path="res://PixelFood/Split/MelonCantaloupe.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://7m4mnqwxwn48" path="res://PixelFood/Split/Eggs.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://bu24ieeka2dbw" path="res://PixelFood/Split/Grub.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://cj6qhqigqyev7" path="res://PixelFood/Split/Fish.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://d0fa8fo25o4q8" path="res://PixelFood/Split/Honey.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://vbioc5g7sx63" path="res://PixelFood/Split/Jam.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://1kiifns0s2gw" path="res://PixelFood/Split/MelonHoneydew.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://mbvnsoht1iwv" path="res://PixelFood/Split/MelonWater.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://n43agsymq6pw" path="res://PixelFood/Split/FishFillet.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://c6702dp5m2dpb" path="res://PixelFood/Split/Grubs.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://bq1m2yo5nxgm5" path="res://PixelFood/Split/Jerky.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://blvn5raya1fu2" path="res://PixelFood/Split/Honeycomb.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://ghf4a5cslsks" path="res://PixelFood/Split/Eggplant.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://dj1yidd4mqhwl" path="res://PixelFood/Split/Onion.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://bh2py5y2ixse4" path="res://PixelFood/Split/Olive.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://chny2uai8fabq" path="res://PixelFood/Split/Moonshine.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://kkdqgv4jdlwe" path="res://PixelFood/Split/Sake.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://cyrwjjlknxie3" path="res://PixelFood/Split/PieApple.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://bkd8e50sglu6" path="res://PixelFood/Split/PiePumpkin.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://l0fahedffy7n" path="res://PixelFood/Split/PickledEggs.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://dhxp5d4yrsrnr" path="res://PixelFood/Split/Potato.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://cg7jqt44pgomp" path="res://PixelFood/Split/PepperRed.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://bg24ls4qiiwq7" path="res://PixelFood/Split/Pepperoni.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://cq0sxmaenkcxk" path="res://PixelFood/Split/Pretzel.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://cdsnvk6afsair" path="res://PixelFood/Split/Peach.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://crp22ecdidyuu" path="res://PixelFood/Split/PieLemon.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://dbddhfbu6so74" path="res://PixelFood/Split/Ribs.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://dj5l084yffhr5" path="res://PixelFood/Split/Pineapple.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://cyyfu1d6l86ec" path="res://PixelFood/Split/Roll.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://yudpmoobvr8u" path="res://PixelFood/Split/PepperGreen.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://cag4ieqbjb43a" path="res://PixelFood/Split/PotatoRed.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://cvntwkj1dnlw7" path="res://PixelFood/Split/Pickle.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://dpjhkobh5eatq" path="res://PixelFood/Split/Sushi.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://ds7jkoyygagbh" path="res://PixelFood/Split/Shrimp.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://dakexhsc3s1ug" path="res://PixelFood/Split/Tart.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://c4x0cnrab1xjh" path="res://PixelFood/Split/Waffles.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://p4we8rbhrm0r" path="res://PixelFood/Split/Turnip.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://c5cwnxbgodbid" path="res://PixelFood/Split/Whiskey.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://duw5xmccs1m8" path="res://PixelFood/Split/Steak.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://pm55008e47i6" path="res://PixelFood/Split/Sardines.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://ny0nspvag6kx" path="res://PixelFood/Split/Sashimi.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://dupg0xb34oy4u" path="res://PixelFood/Split/Stein.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://btddelq4wq1cv" path="res://PixelFood/Split/Strawberry.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://dlb7hwn6qlo26" path="res://PixelFood/Split/Tomato.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://bmc32g2tvrwcn" path="res://PixelFood/Split/Sausages.png" id="64"]
 
 [node name="Food" type="Control"]
+layout_mode = 3
+anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
 
 [node name="GridContainer" type="GridContainer" parent="CenterContainer"]
-margin_left = 114.0
-margin_top = 34.0
-margin_right = 526.0
-margin_bottom = 446.0
+layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 columns = 8
 
 [node name="Control1" type="Control" parent="CenterContainer/GridContainer"]
-margin_right = 48.0
-margin_bottom = 48.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control1"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 8 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("8")
 
 [node name="Control2" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 52.0
-margin_right = 100.0
-margin_bottom = 48.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control2"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 5 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("5")
 
 [node name="Control3" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 104.0
-margin_right = 152.0
-margin_bottom = 48.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control3"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 15 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("15")
 
 [node name="Control4" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 156.0
-margin_right = 204.0
-margin_bottom = 48.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control4"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 4 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("4")
 
 [node name="Control5" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 208.0
-margin_right = 256.0
-margin_bottom = 48.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control5"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 9 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("9")
 
 [node name="Control6" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 260.0
-margin_right = 308.0
-margin_bottom = 48.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control6"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 13 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("13")
 
 [node name="Control7" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 312.0
-margin_right = 360.0
-margin_bottom = 48.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control7"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 11 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("11")
 
 [node name="Control8" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 364.0
-margin_right = 412.0
-margin_bottom = 48.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control8"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 7 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("7")
 
 [node name="Control9" type="Control" parent="CenterContainer/GridContainer"]
-margin_top = 52.0
-margin_right = 48.0
-margin_bottom = 100.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control9"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 14 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("14")
 
 [node name="Control10" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 52.0
-margin_top = 52.0
-margin_right = 100.0
-margin_bottom = 100.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control10"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 6 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("6")
 
 [node name="Control11" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 104.0
-margin_top = 52.0
-margin_right = 152.0
-margin_bottom = 100.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control11"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 2 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("2")
 
 [node name="Control12" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 156.0
-margin_top = 52.0
-margin_right = 204.0
-margin_bottom = 100.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control12"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 3 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("3")
 
 [node name="Control13" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 208.0
-margin_top = 52.0
-margin_right = 256.0
-margin_bottom = 100.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control13"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 16 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("16")
 
 [node name="Control14" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 260.0
-margin_top = 52.0
-margin_right = 308.0
-margin_bottom = 100.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control14"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 10 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("10")
 
 [node name="Control15" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 312.0
-margin_top = 52.0
-margin_right = 360.0
-margin_bottom = 100.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control15"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 1 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("1")
 
 [node name="Control16" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 364.0
-margin_top = 52.0
-margin_right = 412.0
-margin_bottom = 100.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control16"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 32 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("32")
 
 [node name="Control17" type="Control" parent="CenterContainer/GridContainer"]
-margin_top = 104.0
-margin_right = 48.0
-margin_bottom = 152.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control17"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 21 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("21")
 
 [node name="Control18" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 52.0
-margin_top = 104.0
-margin_right = 100.0
-margin_bottom = 152.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control18"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 23 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("23")
 
 [node name="Control19" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 104.0
-margin_top = 104.0
-margin_right = 152.0
-margin_bottom = 152.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control19"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 28 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("28")
 
 [node name="Control20" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 156.0
-margin_top = 104.0
-margin_right = 204.0
-margin_bottom = 152.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control20"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 17 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("17")
 
 [node name="Control21" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 208.0
-margin_top = 104.0
-margin_right = 256.0
-margin_bottom = 152.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control21"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 22 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("22")
 
 [node name="Control22" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 260.0
-margin_top = 104.0
-margin_right = 308.0
-margin_bottom = 152.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control22"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 29 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("29")
 
 [node name="Control23" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 312.0
-margin_top = 104.0
-margin_right = 360.0
-margin_bottom = 152.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control23"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 24 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("24")
 
 [node name="Control24" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 364.0
-margin_top = 104.0
-margin_right = 412.0
-margin_bottom = 152.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control24"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 31 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("31")
 
 [node name="Control25" type="Control" parent="CenterContainer/GridContainer"]
-margin_top = 156.0
-margin_right = 48.0
-margin_bottom = 204.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control25"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 25 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("25")
 
 [node name="Control26" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 52.0
-margin_top = 156.0
-margin_right = 100.0
-margin_bottom = 204.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control26"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 30 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("30")
 
 [node name="Control27" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 104.0
-margin_top = 156.0
-margin_right = 152.0
-margin_bottom = 204.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control27"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 18 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("18")
 
 [node name="Control28" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 156.0
-margin_top = 156.0
-margin_right = 204.0
-margin_bottom = 204.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control28"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 19 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("19")
 
 [node name="Control29" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 208.0
-margin_top = 156.0
-margin_right = 256.0
-margin_bottom = 204.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control29"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 20 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("20")
 
 [node name="Control30" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 260.0
-margin_top = 156.0
-margin_right = 308.0
-margin_bottom = 204.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control30"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 26 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("26")
 
 [node name="Control31" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 312.0
-margin_top = 156.0
-margin_right = 360.0
-margin_bottom = 204.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control31"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 27 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("27")
 
 [node name="Control32" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 364.0
-margin_top = 156.0
-margin_right = 412.0
-margin_bottom = 204.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control32"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 35 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("35")
 
 [node name="Control33" type="Control" parent="CenterContainer/GridContainer"]
-margin_top = 208.0
-margin_right = 48.0
-margin_bottom = 256.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control33"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 34 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("34")
 
 [node name="Control34" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 52.0
-margin_top = 208.0
-margin_right = 100.0
-margin_bottom = 256.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control34"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 33 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("33")
 
 [node name="Control35" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 104.0
-margin_top = 208.0
-margin_right = 152.0
-margin_bottom = 256.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control35"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 44 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("44")
 
 [node name="Control36" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 156.0
-margin_top = 208.0
-margin_right = 204.0
-margin_bottom = 256.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control36"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 49 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("49")
 
 [node name="Control37" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 208.0
-margin_top = 208.0
-margin_right = 256.0
-margin_bottom = 256.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control37"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 42 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("42")
 
 [node name="Control38" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 260.0
-margin_top = 208.0
-margin_right = 308.0
-margin_bottom = 256.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control38"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 41 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("41")
 
 [node name="Control39" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 312.0
-margin_top = 208.0
-margin_right = 360.0
-margin_bottom = 256.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control39"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 51 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("51")
 
 [node name="Control40" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 364.0
-margin_top = 208.0
-margin_right = 412.0
-margin_bottom = 256.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control40"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 39 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("39")
 
 [node name="Control41" type="Control" parent="CenterContainer/GridContainer"]
-margin_top = 260.0
-margin_right = 48.0
-margin_bottom = 308.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control41"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 37 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("37")
 
 [node name="Control42" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 52.0
-margin_top = 260.0
-margin_right = 100.0
-margin_bottom = 308.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control42"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 45 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("45")
 
 [node name="Control43" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 104.0
-margin_top = 260.0
-margin_right = 152.0
-margin_bottom = 308.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control43"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 38 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("38")
 
 [node name="Control44" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 156.0
-margin_top = 260.0
-margin_right = 204.0
-margin_bottom = 308.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control44"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 47 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("47")
 
 [node name="Control45" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 208.0
-margin_top = 260.0
-margin_right = 256.0
-margin_bottom = 308.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control45"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 40 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("40")
 
 [node name="Control46" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 260.0
-margin_top = 260.0
-margin_right = 308.0
-margin_bottom = 308.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control46"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 50 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("50")
 
 [node name="Control47" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 312.0
-margin_top = 260.0
-margin_right = 360.0
-margin_bottom = 308.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control47"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 43 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("43")
 
 [node name="Control48" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 364.0
-margin_top = 260.0
-margin_right = 412.0
-margin_bottom = 308.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control48"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 46 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("46")
 
 [node name="Control49" type="Control" parent="CenterContainer/GridContainer"]
-margin_top = 312.0
-margin_right = 48.0
-margin_bottom = 360.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control49"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 48 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("48")
 
 [node name="Control50" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 52.0
-margin_top = 312.0
-margin_right = 100.0
-margin_bottom = 360.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control50"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 36 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("36")
 
 [node name="Control51" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 104.0
-margin_top = 312.0
-margin_right = 152.0
-margin_bottom = 360.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control51"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 59 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("59")
 
 [node name="Control52" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 156.0
-margin_top = 312.0
-margin_right = 204.0
-margin_bottom = 360.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control52"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 60 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("60")
 
 [node name="Control53" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 208.0
-margin_top = 312.0
-margin_right = 256.0
-margin_bottom = 360.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control53"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 64 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("64")
 
 [node name="Control54" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 260.0
-margin_top = 312.0
-margin_right = 308.0
-margin_bottom = 360.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control54"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 53 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("53")
 
 [node name="Control55" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 312.0
-margin_top = 312.0
-margin_right = 360.0
-margin_bottom = 360.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control55"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 58 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("58")
 
 [node name="Control56" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 364.0
-margin_top = 312.0
-margin_right = 412.0
-margin_bottom = 360.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control56"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 61 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("61")
 
 [node name="Control57" type="Control" parent="CenterContainer/GridContainer"]
-margin_top = 364.0
-margin_right = 48.0
-margin_bottom = 412.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control57"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 62 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("62")
 
 [node name="Control58" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 52.0
-margin_top = 364.0
-margin_right = 100.0
-margin_bottom = 412.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control58"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 52 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("52")
 
 [node name="Control59" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 104.0
-margin_top = 364.0
-margin_right = 152.0
-margin_bottom = 412.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control59"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 54 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("54")
 
 [node name="Control60" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 156.0
-margin_top = 364.0
-margin_right = 204.0
-margin_bottom = 412.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control60"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 63 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("63")
 
 [node name="Control61" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 208.0
-margin_top = 364.0
-margin_right = 256.0
-margin_bottom = 412.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control61"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 56 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("56")
 
 [node name="Control62" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 260.0
-margin_top = 364.0
-margin_right = 308.0
-margin_bottom = 412.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control62"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 55 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("55")
 
 [node name="Control63" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 312.0
-margin_top = 364.0
-margin_right = 360.0
-margin_bottom = 412.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control63"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 57 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("57")
 
 [node name="Control64" type="Control" parent="CenterContainer/GridContainer"]
-margin_left = 364.0
-margin_top = 364.0
-margin_right = 412.0
-margin_bottom = 412.0
-rect_min_size = Vector2( 48, 48 )
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control64"]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -32.0
-margin_bottom = -32.0
-rect_scale = Vector2( 3, 3 )
-texture = ExtResource( 12 )
+offset_right = -32.0
+offset_bottom = -32.0
+scale = Vector2(3, 3)
+texture = ExtResource("12")
