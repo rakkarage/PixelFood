@@ -73,845 +73,345 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="CenterContainer" type="CenterContainer" parent="."]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
+[node name="Panel" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -222.0
+offset_top = -222.0
+offset_right = 222.0
+offset_bottom = 222.0
+grow_horizontal = 2
+grow_vertical = 2
 
-[node name="GridContainer" type="GridContainer" parent="CenterContainer"]
+[node name="Center" type="CenterContainer" parent="Panel"]
+layout_mode = 2
+
+[node name="Grid" type="GridContainer" parent="Panel/Center"]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 columns = 8
 
-[node name="Control1" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control1"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("8")
 
-[node name="Control2" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect2" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control2"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("5")
 
-[node name="Control3" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect3" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control3"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("15")
 
-[node name="Control4" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect4" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control4"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("4")
 
-[node name="Control5" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect5" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control5"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("9")
 
-[node name="Control6" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect6" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control6"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("13")
 
-[node name="Control7" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect7" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control7"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("11")
 
-[node name="Control8" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect8" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control8"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("7")
 
-[node name="Control9" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect9" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control9"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("14")
 
-[node name="Control10" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect10" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control10"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("6")
 
-[node name="Control11" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect11" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control11"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("2")
 
-[node name="Control12" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect12" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control12"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("3")
 
-[node name="Control13" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect13" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control13"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("16")
 
-[node name="Control14" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect14" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control14"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("10")
 
-[node name="Control15" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect15" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control15"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("1")
 
-[node name="Control16" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect16" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control16"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("32")
 
-[node name="Control17" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect17" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control17"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("21")
 
-[node name="Control18" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect18" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control18"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("23")
 
-[node name="Control19" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect19" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control19"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("28")
 
-[node name="Control20" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect20" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control20"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("17")
 
-[node name="Control21" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect21" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control21"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("22")
 
-[node name="Control22" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect22" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control22"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("29")
 
-[node name="Control23" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect23" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control23"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("24")
 
-[node name="Control24" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect24" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control24"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("31")
 
-[node name="Control25" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect25" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control25"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("25")
 
-[node name="Control26" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect26" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control26"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("30")
 
-[node name="Control27" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect27" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control27"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("18")
 
-[node name="Control28" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect28" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control28"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("19")
 
-[node name="Control29" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect29" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control29"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("20")
 
-[node name="Control30" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect30" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control30"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("26")
 
-[node name="Control31" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect31" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control31"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("27")
 
-[node name="Control32" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect32" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control32"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("35")
 
-[node name="Control33" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect33" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control33"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("34")
 
-[node name="Control34" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect34" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control34"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("33")
 
-[node name="Control35" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect35" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control35"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("44")
 
-[node name="Control36" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect36" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control36"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("49")
 
-[node name="Control37" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect37" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control37"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("42")
 
-[node name="Control38" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect38" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control38"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("41")
 
-[node name="Control39" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect39" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control39"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("51")
 
-[node name="Control40" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect40" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control40"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("39")
 
-[node name="Control41" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect41" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control41"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("37")
 
-[node name="Control42" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect42" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control42"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("45")
 
-[node name="Control43" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect43" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control43"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("38")
 
-[node name="Control44" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect44" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control44"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("47")
 
-[node name="Control45" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect45" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control45"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("40")
 
-[node name="Control46" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect46" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control46"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("50")
 
-[node name="Control47" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect47" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control47"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("43")
 
-[node name="Control48" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect48" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control48"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("46")
 
-[node name="Control49" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect49" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control49"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("48")
 
-[node name="Control50" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect50" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control50"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("36")
 
-[node name="Control51" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect51" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control51"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("59")
 
-[node name="Control52" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect52" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control52"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("60")
 
-[node name="Control53" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect53" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control53"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("64")
 
-[node name="Control54" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect54" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control54"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("53")
 
-[node name="Control55" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect55" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control55"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("58")
 
-[node name="Control56" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect56" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control56"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("61")
 
-[node name="Control57" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect57" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control57"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("62")
 
-[node name="Control58" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect58" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control58"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("52")
 
-[node name="Control59" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect59" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control59"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("54")
 
-[node name="Control60" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect60" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control60"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("63")
 
-[node name="Control61" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect61" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control61"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("56")
 
-[node name="Control62" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect62" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control62"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("55")
 
-[node name="Control63" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect63" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control63"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("57")
 
-[node name="Control64" type="Control" parent="CenterContainer/GridContainer"]
+[node name="TextureRect64" type="TextureRect" parent="Panel/Center/Grid"]
 custom_minimum_size = Vector2(48, 48)
 layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/GridContainer/Control64"]
-layout_mode = 0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -32.0
-offset_bottom = -32.0
-scale = Vector2(3, 3)
 texture = ExtResource("12")
