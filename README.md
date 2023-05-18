@@ -8,5 +8,17 @@ Sixty-four pixel-perfect food and drink sprites.
 - 🌐 <http://rakkarage.github.io/PixelFood>
 - 📃 <http://guthub.com/rakkarage/PixelFood>
 
+## Installation
+
+To use a repository with submodules, like this one:
+
+- Use the `--recurse-submodules` option.
+
+      git clone --recurse-submodules http://guthub.com/rakkarage/PixelFood
+
+- Or use `git submodule init` and `git submodule update`.
+
+---
+
 [![.github/workflows/compress.yml](https://github.com/rakkarage/PixelFood/actions/workflows/compress.yml/badge.svg)](https://github.com/rakkarage/PixelFood/actions/workflows/compress.yml)
 [![.github/workflows/deploy.yml](https://github.com/rakkarage/PixelFood/actions/workflows/deploy.yml/badge.svg)](https://github.com/rakkarage/PixelFood/actions/workflows/deploy.yml)
