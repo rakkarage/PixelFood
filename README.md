@@ -6,11 +6,11 @@ Sixty-four pixel-perfect food and drink sprites.
 
 - 📦 <http://henrysoftware.itch.io/godot-pixel-food> : more pixel assets
 - 🌐 <http://rakkarage.github.io/PixelFood> : run in browser
-- 📃 <http://guthub.com/rakkarage/PixelFood> : you are here, maybe
+- 📃 <http://github.com/rakkarage/PixelFood> : you are here, maybe
 
 ## Installation
 
-- `git clone --recurse-submodules http://guthub.com/rakkarage/PixelFood`
+- `git clone --recurse-submodules http://github.com/rakkarage/PixelFood`
 - Or `git submodule init` and `git submodule update`.
 
 ---
